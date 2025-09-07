@@ -1,12 +1,12 @@
 cv:
   name: Gonçalo Azevedo
   email: goncalo.r.azevedo@tecnico.ulisboa.pt
-  website: https://vugonz.xyz
+  website: https://goncalorazevedo.xyz
   social_networks:
     - network: LinkedIn
       username: goncalorazevedo
     - network: GitHub
-      username: vugonz
+      username: goncalorazevedo 
   sections:
     education:
       - institution: Instituto Superior Técnico
@@ -22,15 +22,15 @@ cv:
           - 'Tools used: Python, Google Cloud, Keycloak, Docker'
     projects:
       - name: HS-API
-        date: '[API](https://github.com/HackerSchool/HS-API), [CLI](https://github.com/HackerSchool/hs-cli)'
+        date: '[API](https://github.com/HackerSchool/HS-API)'
         highlights:
-          - Developed a CRUD API for managing personnel, projects, and workshops at Hackerschool, along with a CLI interface.
-          - 'Tools used: Go, Flask, SQLite'
+          - Developed a CRUD API for managing personnel, projects and workshops at Hackerschool.
+          - 'Tools used: Flask, SQLite, Pydantic'
       - name: HS-Solar
-        date: '[Solar](https://github.com/HackerSchool/hs-solar/tree/main/solar-panel-detection)'
         highlights:
-          - Trained a YOLOv8-L model to detect photovoltaic installations from multi-sensor data, as part of a system to identify potential sites for new solar deployments. 
-          - 'Tools used: YOLOv8, Google Colab, Flask'
+          - Developed a tool for **Galp** to gather, analyze, and rank potential photovoltaic installations, helping identify opportunities for new clients using multi-sensor data.
+          - Trained a **YOLOv8** model to detect photovoltaic installations.
+          - 'Tools used: YOLOv8, Google Cloud Platform, Python'
     other experience:
       - company: HackerSchool
         position: Team Coordinator & Developer & Human Resources
@@ -38,7 +38,7 @@ cv:
         end_date: present
         highlights:
           - Led the HS-API team in developing an internal management application.
-          - Developed a computer vision model to identify photovoltaic panels in aerial imagery as part of the HS-Solar team.
+          - Led the HS-Solar project developing a tool to analyze potential photovoltaic installations for **Galp**.
           - Planned workshops and managed onboarding as part of the Human Resources team.
       - company: Linux Install Party
         position: Volunteer
@@ -58,7 +58,7 @@ cv:
       - label: Tools
         details: Arch Linux, VSCode, Git, Docker, Obsidian
       - label: Frameworks
-        details: Flask, Vue.js, Django
+        details: Flask, React
 
 
 
@@ -70,12 +70,8 @@ design:
   color: '#004f90'
   disable_external_link_icons: false
   disable_page_numbering: false
-  # page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
-  # disable_last_updated_date: false
-  # last_updated_date_style: Last updated in TODAY
   header_font_size: 24 pt
   text_alignment: justified
-  # seperator_between_connections: ''
   use_icons_for_connections: true
   margins:
     page:
