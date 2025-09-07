@@ -28,9 +28,9 @@ cv:
           - 'Tools used: Flask, SQLite, Pydantic'
       - name: HS-Solar
         highlights:
-          - Developed a tool for **Galp** to gather, analyze, and rank potential photovoltaic installations, helping identify opportunities for new clients using multi-sensor data.
-          - Trained a **YOLOv8** model to detect photovoltaic installations.
-          - 'Tools used: YOLOv8, Google Cloud Platform, Python'
+          - Developed a tool for Galp to gather, analyze, and rank potential photovoltaic installations, helping identify opportunities for new clients using multi-sensor data.
+          - Trained a YOLOv8 model to detect photovoltaic installations.
+          - 'Tools used: Python, YOLOv8, Google Cloud Platform'
     other experience:
       - company: HackerSchool
         position: Team Coordinator & Developer & Human Resources
