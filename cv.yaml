@@ -1,7 +1,7 @@
 cv:
   name: Gonçalo Azevedo
   email: goncalo.r.azevedo@tecnico.ulisboa.pt
-  website: https://goncalorazevedo.xyz
+  website: https://goncalorazevedo.com
   social_networks:
     - network: LinkedIn
       username: goncalorazevedo
@@ -14,32 +14,36 @@ cv:
         degree: Bachelor
         start_date: 2021-10
         end_date: 2025-07
+    professional experience:
+      - company: Fanduel @ blip.pt
+        start_date: 2025-09
+        end_date: present 
+        position: Software Engineer 
     open source contributions:
       - name: Apache Airflow
         date: '[Airflow PR #39873](https://github.com/apache/airflow/pull/39873)'
         highlights:
           - Simplified authentication for Airflow Google Cloud Operator pipelines, eliminating the need to store and manage sensitive information on the host machine.
-          - 'Tools used: Python, Google Cloud, Keycloak, Docker'
+          - 'Technologies: Python, Google Cloud, Keycloak, Docker'
     projects:
       - name: HS-API
         date: '[API](https://github.com/HackerSchool/HS-API)'
         highlights:
           - Developed a CRUD API for managing personnel, projects and workshops at Hackerschool.
-          - 'Tools used: Flask, SQLite, Pydantic'
+          - 'Technologies: Flask, SQLite, Pydantic'
       - name: HS-Solar
         highlights:
           - Developed a tool for Galp to gather, analyze, and rank potential photovoltaic installations, helping identify opportunities for new clients using multi-sensor data.
           - Trained a YOLOv8 model to detect photovoltaic installations.
-          - 'Tools used: Python, YOLOv8, Google Cloud Platform'
+          - 'Technologies: Python, YOLOv8, Google Cloud Platform'
     other experience:
       - company: HackerSchool
         position: Team Coordinator & Developer & Human Resources
         start_date: 2023-03
-        end_date: present
+        end_date: 2025-07 
         highlights:
           - Led the HS-API team in developing an internal management application.
-          - Led the HS-Solar project developing a tool to analyze potential photovoltaic installations for **Galp**.
-          - Planned workshops and managed onboarding as part of the Human Resources team.
+          - Led the HS-Solar project developing a tool for Galp.
       - company: Linux Install Party
         position: Volunteer
         date: 2022-10
@@ -48,19 +52,19 @@ cv:
       - company: Associação Crato+
         position: Member
         start_date: 2021-01
-        end_date: present
+        end_date: 2025-01
         highlights:
           - Organized and managed events to engage and dynamize the local community.
           - Handled technical operations, including domain setup and hosting static pages to enhance the organization's online presence.
     technologies:
       - label: Languages
-        details: Python, Go, Javascript, Java, C/C++, Bash, SQL
+        details: Java, Python, Go, Rust, Javascript, C/C++
       - label: Tools
-        details: Arch Linux, VSCode, Git, Docker, Obsidian
+        details: Arch Linux, Git, Docker
+      - label: Cloud
+        details: AWS, GCP
       - label: Frameworks
-        details: Flask, React
-
-
+        details: Spring, Flask, React
 
 design:
   theme: sb2nov 
